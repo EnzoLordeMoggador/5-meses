@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>5 Meses de Nós</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Playfair+Display:ital,wght@0,600;1,400&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="travado">
+<section id="abertura" aria-label="Boas-vindas">
+  <div class="coracoes" aria-hidden="true"><i style="--i:1">♥</i><i style="--i:2">♥</i><i style="--i:3">♥</i><i style="--i:4">♥</i><i style="--i:5">♥</i></div>
+  <h1>5 Meses de Nós</h1>
+  <p id="frase"></p>
+  <div class="env" aria-hidden="true"><div class="corpo"></div><div class="papel"></div><div class="frente"></div><div class="aba"></div></div>
+  <button id="abrir" class="btn" type="button">Abrir nossa história ❤️</button>
+</section>
+
+<header id="topo">
+  <nav aria-label="Seções">
+    <a href="#historia">Nossa história</a><a href="#motivos">Gratidão</a><a href="#versiculo">Versículo</a><a href="#carta">Carta</a><a href="#tempo">Nosso tempo</a>
+  </nav>
+  <button id="musica" type="button" aria-pressed="false" aria-label="Tocar ou pausar a música"><i></i><i></i><i></i></button>
+</header>
+
+<main>
+  <section id="historia" tabindex="-1"><h2>Nossa história</h2><div id="galeria" class="galeria"></div></section>
+  <section id="motivos"><h2>Cinco motivos pelos quais sou grato</h2><p class="dica">Toque em um cartão para virar.</p><div id="motivos-lista" class="motivos"></div></section>
+  <section id="versiculo" class="floral">
+    <h2>Nosso versículo</h2>
+    <div class="biblia">
+      <p class="ref" id="v-ref"></p><p class="versao" id="v-versao"></p>
+      <div id="v-texto"></div>
+    </div>
+    <p id="v-pessoal" class="pessoal"></p>
+  </section>
+  <section id="carta">
+    <h2 id="c-titulo">Uma cartinha para você</h2>
+    <button id="c-env" class="env" type="button" aria-expanded="false" aria-label="Abrir a carta"><span class="corpo"></span><span class="papel"></span><span class="frente"></span><span class="aba"></span></button>
+    <div id="c-papel" class="carta-papel"></div>
+  </section>
+  <section id="tempo">
+    <h2>Nossa história continua...</h2>
+    <div class="contador" aria-live="off">
+      <div><b id="t-m">0</b>meses</div><div><b id="t-d">0</b>dias</div><div><b id="t-h">0</b>horas</div><div><b id="t-min">0</b>minutos</div>
+    </div>
+  </section>
+</main>
+
+<div id="lb" role="dialog" aria-modal="true" aria-label="Foto ampliada">
+  <figure><img alt=""><figcaption></figcaption></figure>
+  <button type="button" aria-label="Fechar">×</button>
+</div>
+<script src="js/content.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
