@@ -5,33 +5,37 @@ window.CONTENT = {
   frase: "Cinco meses podem parecer pouco tempo, mas foram suficientes para criar lembranças que quero guardar por toda a vida.",
   // Coloque as fotos em assets/fotos/ e ajuste os nomes. Pode adicionar ou remover itens.
   fotos: [
-    { src: "assets/fotos/foto1.jpg", legenda: "Nosso começo" },
-    { src: "assets/fotos/foto2.jpg", legenda: "Aquele dia" },
-    { src: "assets/fotos/foto3.jpg", legenda: "Rindo à toa" },
-    { src: "assets/fotos/foto4.jpg", legenda: "Meu lugar favorito é perto de você" },
-    { src: "assets/fotos/foto5.jpg", legenda: "Mais um dia juntos" },
-    { src: "assets/fotos/foto6.jpg", legenda: "Cinco meses" }
+    { src: "https://i.ibb.co/4nzHN1tQ/IMG-20250816-170257.jpg", legenda: "Primeira foto nossa" },
+    { src: "https://i.ibb.co/FqJKnCVm/IMG-20250920-150034.jpg", legenda: "Um dia juntinhos" },
+    { src: "https://i.ibb.co/7xRSRKdt/IMG-20250914-174846-504.jpg", legenda: "Seu batismo" },
+    { src: "https://i.ibb.co/KpNHLD8W/IMG-20260329-210856.jpg", legenda: "Momentos Inesquecíveis" },
+    { src: "https://i.ibb.co/jvVB1059/IMG-20260124-161308.jpg", legenda: "Mais um dia juntos" },
+
   ],
   motivos: [
-    { titulo: "Por ter conhecido você", msg: "Troque este texto pela sua mensagem do primeiro mês." },
-    { titulo: "Pelos momentos que compartilhamos", msg: "Troque este texto pela sua mensagem do segundo mês." },
-    { titulo: "Pelas nossas risadas", msg: "Troque este texto pela sua mensagem do terceiro mês." },
-    { titulo: "Pelo companheirismo", msg: "Troque este texto pela sua mensagem do quarto mês." },
-    { titulo: "Por continuarmos construindo nossa história", msg: "Troque este texto pela sua mensagem do quinto mês." }
+    { titulo: "Por ter conhecido você", msg: "Você mudou muito minha forma de agir e de pensar, muito obrigado" },
+    { titulo: "Pelos momentos que compartilhamos", msg: "Eu guardo todos os nossos momentos no meu coração, são todos muito especiais" },
+    { titulo: "Pelas nossas risadas", msg: "Seu sorriso sempre me alegra quando estou feliz e até triste" },
+    { titulo: "Pelo companheirismo", msg: "Obrigado por estar comigo nos momentos difíceis e sempre me apoiar nos meus sonhos" },
+    { titulo: "Por continuarmos construindo nossa história", msg: "Quero construir um futuro muito brilhante ao seu lado" }
   ],
   versiculo: {
     ref: "1 Coríntios 13:4-7",
-    versao: "Informe aqui a tradução (ex.: a que você preferir)",
+    versao: "Versão NVI",
     // Um item por linha do texto. Deixe [] até inserir a tradução escolhida.
-    texto: [],
-    pessoal: "Escreva aqui por que este trecho representa o relacionamento de vocês."
+    texto: [
+      "O amor é paciente, o amor é bondoso. Não inveja, não se vangloria, não se orgulha.",
+      "Não maltrata, não procura seus interesses, não se ira facilmente, não guarda rancor.",
+      "O amor não se alegra com a injustiça, mas se alegra com a verdade.",
+      "Tudo sofre, tudo crê, tudo espera, tudo suporta."
+    ],
+    pessoal: "Esse versículo resume nosso relacionamente, e deve ser sempre a base dele"
   },
   carta: {
     titulo: "Uma cartinha para você",
     paragrafos: [
       "Julia,",
-      "Escreva aqui, com as suas palavras, o que você sente. Cada item desta lista vira um parágrafo.",
-      "Com carinho,"
+      "Quero te agradecer por mais um mês que passamos juntos, obrigado por falar comigo as vezes KKKK, e sempre fazer parte de todos os meus dias, quero estar com você pra sempre e honrar a Deus com nosso relacionamento, eu te amo meu Amor <3"
     ]
   }
 };

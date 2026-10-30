@@ -30,7 +30,7 @@
   C.motivos.forEach((m, i) => {
     const c = el('button', 'cartao'); c.type = 'button'; c.setAttribute('aria-pressed', 'false');
     const mi = el('div', 'miolo'), fr = el('div', 'face'), vs = el('div', 'face verso');
-    fr.append(el('div', 'deco', '❀'), el('div', 'mes', 'Mês ' + (i + 1)), el('strong', '', m.titulo));
+    fr.append(el('div', 'deco', '❀'), el('div', 'mes', '' + (i + 1)), el('strong', '', m.titulo));
     vs.append(el('p', '', m.msg)); mi.append(fr, vs); c.append(mi);
     c.onclick = () => c.setAttribute('aria-pressed', c.classList.toggle('vira'));
     $('#motivos-lista').append(revela(c, i));
