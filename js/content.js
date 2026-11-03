@@ -5,12 +5,11 @@ window.CONTENT = {
   frase: "Cinco meses podem parecer pouco tempo, mas foram suficientes para criar lembranças que quero guardar por toda a vida.",
   // Coloque as fotos em assets/fotos/ e ajuste os nomes. Pode adicionar ou remover itens.
   fotos: [
-    { src: "https://i.ibb.co/4nzHN1tQ/IMG-20250816-170257.jpg", legenda: "Primeira foto nossa" },
-    { src: "https://i.ibb.co/FqJKnCVm/IMG-20250920-150034.jpg", legenda: "Um dia juntinhos" },
-    { src: "https://i.ibb.co/7xRSRKdt/IMG-20250914-174846-504.jpg", legenda: "Seu batismo" },
-    { src: "https://i.ibb.co/KpNHLD8W/IMG-20260329-210856.jpg", legenda: "Momentos Inesquecíveis" },
-    { src: "https://i.ibb.co/jvVB1059/IMG-20260124-161308.jpg", legenda: "Mais um dia juntos" },
-
+    { src: "./assets/fotos/foto1.jpg", legenda: "Primeira foto nossa" },
+    { src: "./assets/fotos/foto2.jpg", legenda: "Um dia juntinhos" },
+    { src: "./assets/fotos/foto3.jpg", legenda: "Seu batismo" },
+    { src: "./assets/fotos/foto4.jpg", legenda: "Momentos Inesquecíveis" },
+    { src: "./assets/fotos/foto5.jpg", legenda: "Mais um dia juntos" }
   ],
   motivos: [
     { titulo: "Por ter conhecido você", msg: "Você mudou muito minha forma de agir e de pensar, muito obrigado" },
